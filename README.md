@@ -2,14 +2,14 @@
 
 ## Topics
 
-| # | Topic | Covers |
+| # | Topic | Contents |
 |---|-------|--------|
-| 01 | [k-means](topics/k-means/) | description |
+| 01 | [k-means](topics/k-means/) | [notes](topics/k-means/notes.md) |
 | 02 | [PCA](topics/PCA/) | subtopics |
 | 03 | [SVD](topics/SVD/) | subtopics |
 | 04 | [kNN](topics/kNN/) | subtopics |
-| 05 | [Linear Regression](topics/linear-regression/) | subtopics |
-| 06 | [Gradient Descent](topics/gradient-descent/) | subtopics |
+| 05 | [Linear Regression](topics/linear-regression/) | [notes](topics/linear-regression/notes.md) |
+| 06 | [Gradient Descent](topics/gradient-descent/) | [notes](topics/gradient-descent/notes.md) |
 
 ## Import Block
 
