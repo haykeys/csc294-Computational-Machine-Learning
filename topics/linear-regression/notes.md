@@ -89,3 +89,11 @@ te2 = np.mean(np.abs(pred2 - output2)**2)
 pred4 = lm4.predict(input4)
 te4 = np.mean(np.abs(pred4 - output4)**2)
 ```
+
+### fit() vs. predict()
+
+- `fit()`: actual model on actual data (what we already have)
+- `predict()`: on new data — based off the fit
+
+`lm.predict([[6]])` outputs `array([[63.2787]])`
+... exactly the same as `m * neuro + b`
