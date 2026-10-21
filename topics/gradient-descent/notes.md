@@ -11,30 +11,20 @@
 
 ### Formulas
 
-\begin{equation}
-MSE = \dfrac{1}{D}\Sigma_{i}(p_i - (m*n_i + b))^2
-\end{equation}
+$ MSE = \dfrac{1}{D}\Sigma_{i}(p_i - (m*n_i + b))^2 $
 
-\begin{equation}
-d_m(MSE) = -2*avg((input\_values)*(truth - (guess)))
-\end{equation}
+$ d_m(MSE) = -2*avg((input\_values)*(truth - (guess))) $
 
 - partial derivative of MSE with respect to $m$
     - resulting value tells us how far to move in thge $m$ direction
 
-\begin{equation}
-d_b(MSE) = -2*avg((truth - (guess)))
-\end{equation}
+$ d_b(MSE) = -2*avg((truth - (guess))) $
 
 - the partial derivatives tell us the steepest direction to move in from our current point.
 - since we want to move towards the minimum, we choose to move in the direction of the negative gradient
 
-\begin{equation}
-m_{new} = m - L*d_m(MSE)
-\end{equation}
+$ m_{new} = m - L*d_m(MSE) $
 
-\begin{equation}
-b_{new} = b - L*d_b(MSE)
-\end{equation}
+$ b_{new} = b - L*d_b(MSE) $
 
 - $L$ = learning rate (how big our steps should be)
